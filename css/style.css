@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+:root {
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent-white-p: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-h: hsla(0, 0%, 100%, 0.6);
+}
+
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  background-color: var(--very-dark-blue);
+}
+
+.container {
+  background-color: var(--dark-desaturated-blue);
+  display: flex;
+  max-width: 100rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content {
+  width: 50%;
+  padding: 7rem;
+}
+
+.content-heading {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+}
+
+.content-heading span {
+  color: var(--soft-violet);
+}
+
+.content-text {
+  font-size: 1.4rem;
+  color: var(--slightly-transparent-white-p);
+  line-height: 1.8;
+  margin-bottom: 6rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
+}
+
+.stats-container {
+  display: flex;
+  gap: 4rem;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats .value {
+  font-size: 2.6rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.stats .value-text {
+  color: var(--slightly-transparent-white-h);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.picture {
+  width: 50%;
+  /* background: url("../images/image-header-desktop.jpg"); */
+  background: linear-gradient(var(--soft-violet), var(--soft-violet)),
+    url("../images/image-header-desktop.jpg");
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+}
+
+@media (max-width: 24em) {
+  .container {
+    flex-direction: column-reverse;
+    width: 90%;
+    text-align: center;
+  }
+
+  .content {
+    width: 100%;
+    height: 70%;
+    padding: 3rem;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .picture {
+    width: 100%;
+    height: 30rem;
+  }
+}
