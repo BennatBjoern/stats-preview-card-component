@@ -42,5 +42,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@bjoernbennat](https://www.frontendmentor.io/profile/bjoernbennat)
+- Frontend Mentor - [@bennatbjoern](https://www.frontendmentor.io/profile/bennatbjoern)
 - Twitter - [@youruserbjoerncodesname](https://www.twitter.com/bjoerncodes)
