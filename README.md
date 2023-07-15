@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-flexbox-x63d3p_s4_)
-- Live Site URL: [Live link](https://bennatbjoern.github.io/stats-preview-card-component/)
+- Solution URL: [Frontendmentor](https://www.frontendmentor.io/solutions/stats-preview-card-component-using-flexbox-x63d3p_s4_)
+- Live Site URL: [Github pages](https://bennatbjoern.github.io/stats-preview-card-component/)
 
 ## My process
 
